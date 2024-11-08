@@ -1,0 +1,1 @@
+// Caso existam dois numeros iguais, nenhuma das comparações será satisfeita, logo a posição sera mantida.
