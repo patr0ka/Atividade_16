@@ -4,7 +4,7 @@ using namespace std;
 void selectiondecres(int *v,  int n){
     int i, j;
     for(i=0; i<n-1; i++){
-        for(j=i+1; j<=n; j++){
+        for(j=i+1; j<n; j++){
             if(v[j] < v[i]){
                 swap(v[j], v[i]);
             }
